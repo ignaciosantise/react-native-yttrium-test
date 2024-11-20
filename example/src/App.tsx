@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { StyleSheet, View, Text } from 'react-native';
-import { multiply } from 'react-native-yttrium';
+import { multiply, getAddress } from 'react-native-yttrium';
 
 export default function App() {
   const [result, setResult] = useState<number | undefined>();
@@ -8,6 +8,8 @@ export default function App() {
   useEffect(() => {
     multiply(3, 7).then(setResult);
   }, []);
+
+  getAddress().then(console.log);
 
   return (
     <View style={styles.container}>
@@ -21,6 +23,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
+    backgroundColor: 'white',
   },
   box: {
     width: 60,

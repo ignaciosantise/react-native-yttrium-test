@@ -20,3 +20,7 @@ const Yttrium = NativeModules.Yttrium
 export function multiply(a: number, b: number): Promise<number> {
   return Yttrium.multiply(a, b);
 }
+
+export function getAddress(): Promise<string> {
+  return Yttrium.getAddress();
+}

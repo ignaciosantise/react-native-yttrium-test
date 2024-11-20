@@ -1,7 +1,7 @@
 {
   "name": "react-native-yttrium",
-  "version": "0.1.0",
-  "description": "Smart accounts",
+  "version": "0.0.1",
+  "description": "A cross-platform smart account library",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
   "module": "./lib/module/index.js",
@@ -52,14 +52,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://reown.com.git"
+    "url": "git+https://github.com/reown-com/yttrium.git"
   },
-  "author": "ignaciosantise <25931366+ignaciosantise@users.noreply.github.com> (https://reown.com)",
-  "license": "MIT",
+  "author": "Reown <support@reown.com> (https://reown.com)",
+  "license": "Apache-2.0",
   "bugs": {
-    "url": "https://reown.com/issues"
+    "url": "https://github.com/reown-com/yttrium/issues"
   },
-  "homepage": "https://reown.com#readme",
+  "homepage": "https://reown.com",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
